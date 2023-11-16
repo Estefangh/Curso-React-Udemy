@@ -1,6 +1,10 @@
 import './App.css';
 
 import City from './assets/city.jpg'
+import Lista from './components/Lista';
+import ManageData from './components/ManageData';
+
+
 
 function App() {
   return (
@@ -14,6 +18,8 @@ function App() {
       <div>
         <img src={City} alt="cidade" />
       </div>
+      <ManageData />
+      <Lista />
     </div>
   );
 }
